@@ -1,3 +1,4 @@
+/* main--first 시작 */
 .main__first-img {
     display: flex;
     justify-content: flex-end;
@@ -65,3 +66,7 @@
     color: white;
     margin-top: 15px; /* 위쪽 간격 추가 */
 }
+/* main--first 끝 */
+
+
+/* main--star시작 */
