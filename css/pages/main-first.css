@@ -1,0 +1,11 @@
+.main__first-img {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 20px;
+}
+
+.main__first-img img{
+    width: 70vh;
+    height: 500px;
+    border-radius: 10px;
+}

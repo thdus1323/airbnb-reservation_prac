@@ -1,0 +1,4 @@
+@import "./common/reset.css";
+@import "./pages/main-first.css";
+@import "./layout/header.css";
+@import "./layout/footer.css";

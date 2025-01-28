@@ -1,0 +1,33 @@
+.header__logo{
+    display: flex;
+}
+
+.header__img{
+    width: 50px;
+}
+
+.header__logo p{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    
+}
+
+.header__nav a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+
+}
+
+.header__nav a:hover{
+    font-weight: 700;
+
+}
