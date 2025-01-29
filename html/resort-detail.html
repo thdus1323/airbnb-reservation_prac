@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Airbnb</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="https://kit.fontawesome.com/52a2df029d.js" crossorigin="anonymous"></script>
+    <!-- 헤더시작 -->
+    <header>
+        <div class="header__logo">
+            <img class="header__img" src="../img/logo.png" alt="로고">
+            <p>당신의 공간을 에어비앤비하세요</p>
+        </div>
+        <nav class="header__nav">
+            <a href="#">Home</a>
+            <a href="#">MyPage</a>
+        </nav>
+    </header>
+    <!-- 헤더 끝 -->
+</head>
+<body>
+    <section class="main__star">
+        <div class="main__star__container">
+            <span class="star__title">최고 평점을 받은 korea의 호텔 숙소</span>
+            <p>위치, 청결도 등에서 게스트의 높은 평가를 받은 호텔 숙소입니다</p>
+            <div class="resort__detail">
+                <div class="resort__detail__img">
+                    <img class="resort__detail__img--1" src="../img/card1.jpg">
+                </div> 
+                <div class="resort__detail__title">
+                    <div class="resort__detail__title--1">
+                     <span>애월읍, 더미데이터입니다 </span>
+                     <span>⭐5(32)</span>
+                    </div>
+                        <p>#힐링하루</p>
+                    <form action="#">
+                            <div class="person-quantity-container">
+                                <label>인원:</label>
+                                <button  class="person-quantity" type="button" onclick="changeQuantity(-1)">-</button>
+                                <input class="person-quantity" type="number" id="quantity" name="quantity"
+                                   value="1" min="1" style="width:50px" readonly>
+                                <button  class="person-quantity" type="button" onclick="changeQuantity(1)">+</button>
+                            </div>
+                            <div>
+                                <span class="checkin__title">체크인</span>
+                                <input class="checkin__input" type="date">
+                            </div>
+                            <div>
+                                <span class="checkout__title">체크아웃</span>
+                                <input class="checkout__input" type="date">
+                            </div>
+                            <p>총 가격:  00원</p>
+                        <button class="reset__reservation__btn">🔍예약완료</button>
+                    </form>
+                </div>
+              </div>
+            
+
+        </div>
+    </section>
+    
+</body>
+</html>
